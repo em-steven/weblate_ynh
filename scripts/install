@@ -100,7 +100,7 @@ mkdir -p "$final_path"
 mkdir -p "$final_path/avatar-cache"
 mkdir -p "$final_path/data"
 
-chmod 750 "$final_path"
+chmod 770 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
